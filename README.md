@@ -1,7 +1,11 @@
-﻿![License](https://img.shields.io/badge/license-MIT-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 ![Delphi](https://img.shields.io/badge/Delphi-RAD%20Studio-red)
 ![Build](https://img.shields.io/badge/build-stable-brightgreen)
 ![Status](https://img.shields.io/badge/status-active-blue)
+
+<p align="center">
+  <img src="Assets/Logo.png" width="400">
+</p>
 
 # AssetForge 🔨
 
