@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project Version="1.0">
+  <Title>AssetForge</Title>
+  <Summary>Deterministic asset hashing for cache-safe production deployments</Summary>
+  <Author>Dany LEBLANC</Author>
+  <Email>dany.leblanc@solutions-dev.fr</Email>
+  <Copyright>@2026 Solutions-dev</Copyright>
+  <Comment>Free tools on MIT Licence
+No warranty</Comment>
+  <Language>1036</Language>
+  <Charset>1</Charset>
+  <Theme>Legacy</Theme>
+  <HeaderHtml>&lt;%TopicTitle%&gt;</HeaderHtml>
+  <FooterHtml>&lt;p&gt;Powered by &lt;a href="https://devjetsoftware.com/docinsight/" target="_blank"&gt;DocInsight&lt;/a&gt;&lt;/p&gt;</FooterHtml>
+  <CustomDefines/>
+  <GlobalSearchPaths>false</GlobalSearchPaths>
+  <ShowImplementationSection>false</ShowImplementationSection>
+  <ShowPrivateMembers>false</ShowPrivateMembers>
+  <ShowProtectedMembers>true</ShowProtectedMembers>
+  <ShowInheritedMembers>true</ShowInheritedMembers>
+  <ShowPropertyAccessors>true</ShowPropertyAccessors>
+  <FileNamePolicy>0</FileNamePolicy>
+  <CompilerVersion>28</CompilerVersion>
+  <TargetPlatform>1</TargetPlatform>
+  <Sources>
+    <Source>.\AssetForge.dpr</Source>
+  </Sources>
+  <Outputs>
+    <Output Type="HTML">
+      <Active>true</Active>
+      <OutputDirectory>build\docs\html</OutputDirectory>
+    </Output>
+    <Output Type="CHM">
+      <Active>true</Active>
+      <OutputFileName>build\docs\chm\AssetForge.chm</OutputFileName>
+    </Output>
+    <Output Type="MSHELP2">
+      <Active>false</Active>
+      <OutputFileName>build\docs\mshelp2\AssetForge.HxS</OutputFileName>
+      <Namespace>AssetForge</Namespace>
+      <TitleID>library</TitleID>
+    </Output>
+    <Output Type="HelpAndManual">
+      <Active>false</Active>
+      <OutputFileName>build\docs\hm\AssetForge.hmxp</OutputFileName>
+    </Output>
+  </Outputs>
+</Project>
