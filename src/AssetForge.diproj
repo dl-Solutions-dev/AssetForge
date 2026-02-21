@@ -28,11 +28,11 @@ No warranty</Comment>
   <Outputs>
     <Output Type="HTML">
       <Active>true</Active>
-      <OutputDirectory>build\docs\html</OutputDirectory>
+      <OutputDirectory>C:\Users\danyleblanc\Documents\DL-Projets\AssetForge\docs\html</OutputDirectory>
     </Output>
     <Output Type="CHM">
       <Active>true</Active>
-      <OutputFileName>build\docs\chm\AssetForge.chm</OutputFileName>
+      <OutputFileName>C:\Users\danyleblanc\Documents\DL-Projets\AssetForge\docs\chm\AssetForge.chm</OutputFileName>
     </Output>
     <Output Type="MSHELP2">
       <Active>false</Active>
