@@ -178,18 +178,22 @@
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <DCC_ConsoleTarget>true</DCC_ConsoleTarget>
-        <UWP_DelphiLogo44>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png</UWP_DelphiLogo44>
-        <UWP_DelphiLogo150>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png</UWP_DelphiLogo150>
+        <UWP_DelphiLogo44>$(ProjectName).Artwork\Windows\Uwp_44.png</UWP_DelphiLogo44>
+        <UWP_DelphiLogo150>$(ProjectName).Artwork\Windows\Uwp_150.png</UWP_DelphiLogo150>
+        <Icon_MainIcon>$(ProjectName).Artwork\Windows\AppIcon.ico</Icon_MainIcon>
+        <Icns_MainIcns>$(ProjectName).Artwork\Windows\AppIcon.icns</Icns_MainIcns>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win64)'!=''">
         <DCC_UsePackage>VCLTMSFNCDashboardPackPkgDXE16;VCLTMSFNCWebSocketPkgDXE16;vclwinx;DataSnapServer;fmx;vclie;DbxCommonDriver;bindengine;IndyIPCommon;VCLRESTComponents;DBXMSSQLDriver;FireDACCommonODBC;emsclient;FMX_FlexCel_Components;IndyProtocols;FMXTMSFNCWXPackPkgDXE16;vclx;dbxcds;vcledge;FMXfrLanguageDutch37;FMXfrLanguageRomanian37;FmxTeeUI;FlexCel_Pdf;DBXFirebirdDriver;FMXfrLanguageCatalon37;FireDACSqliteDriver;DbxClientDriver;soapmidas;TeeUI;FMXfrLanguageArabic37;FMXTMSFNCAppToolsPkgDXE16;FMXfrLanguageHungarian37;dbexpress;FMXfrLanguageBrazil37;VCLTMSFNCWXPackPkgDXE16;inet;FMXfrLanguageLatvian37;vcltouch;FMX_FlexCel_Core;FMXfrLanguageUkrainian37;FireDACDBXDriver;fmxdae;VCL_FlexCel_Core;CustomIPTransport;FireDACMSSQLDriver;FMXfrLanguageJapanese37;pkgSDComposants;IndySystem;VCLTMSFNCMapsPkgDXE16;FMXfrLanguageSpanish37;TMSFNCCorePkgDXE16;FMXfrLanguageBulgarian37;vclFireDAC;FlexCel_Render;FireDACCommon;DataSnapServerMidas;FireDACODBCDriver;emsserverresource;FMXTMSFNCDashboardPackPkgDXE16;bindcompdbx;rtl;FireDACMySQLDriver;VCLTMSFNCCorePkgDXE16;VCL_FlexCel_Components;SmartCoreAIVCL;DBXSqliteDriver;VCLTMSFNCGanttChartPkgDXE16;DBXSybaseASEDriver;SmartCoreAIFMX;vclimg;DataSnapFireDAC;inetdbxpress;FireDAC;xmlrtl;dsnap;FireDACDb2Driver;DBXOracleDriver;DBXInformixDriver;fmxobj;bindcompvclsmp;DataSnapNativeClient;DatasnapConnectorsFreePascal;FMXfrLanguageIndonesian37;FMXTMSFNCCloudPackPkgDXE16;emshosting;FMXfrLanguageRussian37;FireDACCommonDriver;FMXfrLanguageBrazil237;FMXfrLanguageItalian37;IndyIPClient;FMXfrLanguageFrench37;bindcompvclwinx;TMSFNCPushNotificationsPkgDXE16;VCLTMSFNCCloudPackPkgDXE16;emsedge;bindcompfmx;FMXfrLanguageSwiss37;inetdb;FireDACASADriver;Tee;FMXfrLanguageSerbian37;vclactnband;FMXfrLanguagePolish37;fmxFireDAC;FireDACInfxDriver;DBXMySQLDriver;VclSmp;DataSnapCommon;FMXTMSFNCWebSocketPkgDXE16;fmxase;FMXfrLanguageDanish37;DBXOdbcDriver;SmartCoreAI;dbrtl;FireDACOracleDriver;VCLTMSFNCChartPkgDXE16;TeeDB;FlexCel_XlsAdapter;FireDACMSAccDriver;FMXfrLanguageHebrew37;FMXTMSFNCGanttChartPkgDXE16;FMXfrLanguageBrazil137;DataSnapIndy10ServerTransport;FMXfrLanguageCzech37;FMXTMSFNCCorePkgDXE16;DataSnapConnectors;vcldsnap;DBXInterBaseDriver;FireDACMongoDBDriver;FMXfrLanguageTurkish37;FireDACTDataDriver;FMXfrLanguageLithuanian37;Skia.Package.VCL;FMXfrLanguageTaiwan37;vcldb;FMXTMSFNCBloxPkgDXE16;FlexCel_Core;VCLTMSFNCBloxPkgDXE16;bindcomp;inetstn;IndyCore;RESTBackendComponents;FMXfrLanguagePortuguese37;FireDACADSDriver;FMXTMSFNCUIPackPkgDXE16;RESTComponents;FMXfrLanguageGreek37;IndyIPServer;vcl;dsnapxml;adortl;dsnapcon;DataSnapClient;DataSnapProviderClient;FMXTMSFNCChartPkgDXE16;FMXfrLanguageCroatian37;FMXfrLanguageSlovak37;VCLTMSFNCAppToolsPkgDXE16;LockBoxDR;FMXfrLanguageSlovene37;FMXfrLanguageSwedish37;DBXDb2Driver;FMXfrLanguageGerman37;emsclientfiredac;FireDACPgDriver;FireDACDSDriver;FMXfrLanguageChinese37;tethering;FMXTMSFNCMapsPkgDXE16;bindcompvcl;FMXfrLanguageFarsi37;CloudService;DBXSybaseASADriver;FMXTee;soaprtl;VCLTMSFNCUIPackPkgDXE16;soapserver;FireDACIBDriver;$(DCC_UsePackage)</DCC_UsePackage>
         <DCC_ConsoleTarget>true</DCC_ConsoleTarget>
-        <UWP_DelphiLogo44>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png</UWP_DelphiLogo44>
-        <UWP_DelphiLogo150>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png</UWP_DelphiLogo150>
+        <UWP_DelphiLogo44>$(ProjectName).Artwork\Windows\Uwp_44.png</UWP_DelphiLogo44>
+        <UWP_DelphiLogo150>$(ProjectName).Artwork\Windows\Uwp_150.png</UWP_DelphiLogo150>
         <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;$(DCC_Namespace)</DCC_Namespace>
         <BT_BuildType>Debug</BT_BuildType>
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
+        <Icon_MainIcon>$(ProjectName).Artwork\Windows\AppIcon.ico</Icon_MainIcon>
+        <Icns_MainIcns>$(ProjectName).Artwork\Windows\AppIcon.icns</Icns_MainIcns>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1)'!=''">
         <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
@@ -205,7 +209,13 @@
         <DCC_RemoteDebug>false</DCC_RemoteDebug>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
-        <Debugger_RunParams>--Prod -r &quot;C:\Users\danyleblanc\Documents\Temp\TestDeploy\Templates&quot; -d &quot;C:\Users\danyleblanc\Documents\Temp\TestDeploy\Templates - Prod&quot; -m &quot;C:\Users\danyleblanc\Documents\Temp\TestDeploy\Manifest.json&quot;</Debugger_RunParams>
+        <Debugger_RunParams>--help</Debugger_RunParams>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <Manifest_File>(vide)</Manifest_File>
+        <AppDPIAwarenessMode>none</AppDPIAwarenessMode>
+        <Icon_MainIcon>..\Assets\favicon.ico</Icon_MainIcon>
+        <UWP_DelphiLogo44>..\Assets\Icone.png</UWP_DelphiLogo44>
+        <UWP_DelphiLogo150>..\Assets\Icone.png</UWP_DelphiLogo150>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2)'!=''">
         <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
@@ -222,6 +232,7 @@
         <DCCReference Include="Core\uManifest.pas"/>
         <DCCReference Include="Core\uAssetProcessor.pas"/>
         <DCCReference Include="Core\uHTMLProcessor.pas"/>
+        <None Include="..\README.md"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -242,6 +253,12 @@
                 <Source>
                     <Source Name="MainSource">AssetForge.dpr</Source>
                 </Source>
+                <WelcomePageFile Path="..\README.md"/>
+                <WelcomePageFolder/>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k370.bpl">Composants Microsoft Office 2000 Sample Automation Server Wrapper</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclofficexp370.bpl">Composants Microsoft Office XP Sample Automation Server Wrapper</Excluded_Packages>
+                </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="5">
                 <DeployFile LocalName="$(BDS)\Redist\iossimulator\libcgunwind.1.0.dylib" Class="DependencyModule">
@@ -256,6 +273,19 @@
                 </DeployFile>
                 <DeployFile LocalName="$(BDS)\Redist\osx32\libcgunwind.1.0.dylib" Class="DependencyModule">
                     <Platform Name="OSX32">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\Assets\Icone.png" Configuration="Debug" Class="UWP_DelphiLogo44">
+                    <Platform Name="Win64">
+                        <RemoteDir>Assets\</RemoteDir>
+                        <RemoteName>Logo44x44.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\README.md" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win64">
+                        <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
