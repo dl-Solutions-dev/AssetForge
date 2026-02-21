@@ -72,17 +72,25 @@ Build using Delphi (RAD Studio).
 🖥 Usage
 
 ```
-assetforge build --src ./src --dist ./dist --prod
+assetforge build --prod --ci -r ./src -d ./dist -m ./manifest.json
 ```
 
 options
 
 ```
---src     Source directory
---dist    Output directory
---prod    Enable hashing mode
+--help    help
+--prod    renamme assets
 --dev     Disable hashing (development mode)
+-r        Origin directory
+-d        Destination directory
+-m        manifest file name
+
 ```
+---
+
+🛣 Roadmap
+ - CSS url() parsing
+ - GitHub Action template
 
 ---
 
