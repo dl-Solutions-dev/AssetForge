@@ -76,7 +76,7 @@ Build using Delphi (RAD Studio).
 🖥 Usage
 
 ```
-assetforge build --prod --ci -r ./src -d ./dist -m ./manifest.json
+assetforge --prod --ci -r ./src -d ./dist -m ./manifest.json
 ```
 
 options
