@@ -50,6 +50,8 @@ begin
       [ rfReplaceAll ] );
   end;
 
+  ForceDirectories( aDestFolder );
+
   TFile.WriteAllText(
     TPath.Combine( aDestFolder, TPath.GetFileName( aSourceFile ) ),
     LContent
