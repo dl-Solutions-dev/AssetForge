@@ -76,7 +76,7 @@ Build using Delphi (RAD Studio).
 🖥 Usage
 
 ```
-assetforge build --prod --ci -r ./src -d ./dist -m ./manifest.json
+assetforge --prod --ci -r ./src -d ./dist -m ./manifest.json
 ```
 
 options
@@ -85,6 +85,7 @@ options
 --help    help
 --prod    renamme assets
 --dev     Disable hashing (development mode)
+--ci      Execution in CI/CD context
 -r        Origin directory
 -d        Destination directory
 -m        manifest file name
