@@ -72,6 +72,10 @@ var
 begin
   var LFullHash := THashSHA2.GetHashStringFromFile( aSourceFile );
   var LShortHash := Copy( LFullHash, 1, 12 );
+  var LBaseName := TPath.GetFileNameWithoutExtension( aSourceFile );
+  var LExt := TPath.GetExtension( aSourceFile );
+
+  ForceDirectories( aDestFolder );
 
   if aManifest.GetAsset( TPath.GetFileName( aSourceFile ), LEntry ) then
   begin
@@ -79,7 +83,13 @@ begin
 
     if ( LEntry.Hash = LShortHash ) then
     begin
-      // fichier non modifié
+      // fichier non modifié, on remet le même hash
+      LNewFileName := LBaseName + '.' + LShortHash + LExt;
+
+      TFile.Copy( aSourceFile,
+        TPath.Combine( aDestFolder, LNewFileName ),
+        True );
+
       Exit;
     end;
   end
@@ -87,9 +97,6 @@ begin
   begin
     LEntryExist := False;
   end;
-
-  var LBaseName := TPath.GetFileNameWithoutExtension( aSourceFile );
-  var LExt := TPath.GetExtension( aSourceFile );
 
   if ( CompareText( TCommandLine.GetInstance.BuildMode, 'prod' ) = 0 ) then
   begin
